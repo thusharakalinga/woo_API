@@ -40,9 +40,9 @@ You can Run migration Command below its create DB and create table and Data Seed
 
 How to run the API
 ----------------------------------
-Run this command in Your CLI
-php artisan serve
-php artisan queue:work
+Run this command in Your CLI<br>
+php artisan serve<br>
+php artisan queue:work<br>
 System runing with http://localhost:8000
 
 Run API with POSTMAN
@@ -50,3 +50,27 @@ Run API with POSTMAN
 Postman is an API platform for building and using APIs. you can download the postman and setup 
 https://www.postman.com/downloads/
 
+API End point
+-----------------------------------------------
+
+* New User register
+    End point: http://localhost:8000/api/register
+    Method: POST
+    Body
+    {
+        "email":"test@gmail.com"
+        "password":"123"
+        "c_password":"123"
+
+    }
+
+    Out Put
+
+    {
+    "success": true,
+    "data": {
+        "token": "1|IAv8tDc1LUyCQqlz3lJhz9oaLNaqCKUMhhDgAQFM",
+        "name": "thushara"
+    },
+    "message": "User register successfully."
+    }
