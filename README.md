@@ -74,3 +74,50 @@ API End point
     },<br>
     "message": "User register successfully."<br>
     }
+-------------------------------------------
+
+    * Login<br>
+    End point: http://localhost:8000/api/login <br>
+    Method: POST<br>
+    Body<br>
+    {<br>
+        "email":"test@gmail.com"<br>
+        "password":"123"<br>
+        "c_password":"123"<br>
+
+    }<br>
+
+    Out Put<br>
+
+    {<br>
+    "success": true,<br>
+    "data": {<br>
+        "token": "1|IAv8tDc1LUyCQqlz3lJhz9oaLNaqCKUMhhDgAQFM",<br>
+        "name": "thushara"<br>
+    },<br>
+    "message": "User register successfully."<br>
+    }
+
+-------------------------------------
+
+    * Get Products<br>
+    End point: http://localhost:8000/api/register<br>
+    Method: POST<br>
+    Body<br>
+    {<br>
+        "email":"test@gmail.com"<br>
+        "password":"123"<br>
+        "c_password":"123"<br>
+
+    }<br>
+
+    Out Put<br>
+
+    {<br>
+    "success": true,<br>
+    "data": {<br>
+        "token": "1|IAv8tDc1LUyCQqlz3lJhz9oaLNaqCKUMhhDgAQFM",<br>
+        "name": "thushara"<br>
+    },<br>
+    "message": "User register successfully."<br>
+    }
