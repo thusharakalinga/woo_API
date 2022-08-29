@@ -80,12 +80,10 @@ API End point
     End point: http://localhost:8000/api/login 
     Method: POST
     Body
-    {<
+    {
         "email":"test@gmail.com"
         "password":"123"
-        "c_password":"123"
-
-    }
+       }
 
     Out Put
 
@@ -100,24 +98,28 @@ API End point
 
 -------------------------------------
 
-    * Get Products<br>
-    End point: http://localhost:8000/api/register<br>
-    Method: POST<br>
-    Body<br>
-    {<br>
-        "email":"test@gmail.com"<br>
-        "password":"123"<br>
-        "c_password":"123"<br>
+    * Get Products
+    End point: http://localhost:8000/api/products
+    Method: GET
+    Authorization: Bearer + token
+ 
+    Out Put
 
-    }<br>
-
-    Out Put<br>
-
-    {<br>
-    "success": true,<br>
-    "data": {<br>
-        "token": "1|IAv8tDc1LUyCQqlz3lJhz9oaLNaqCKUMhhDgAQFM",<br>
-        "name": "thushara"<br>
-    },<br>
-    "message": "User register successfully."<br>
-    }
+    {
+    "success": true,
+    "data": [
+        {
+            "id": 70,
+            "name": "special cotton shirt for men",
+            "price": "15",
+            "description": "des"
+        },
+        {
+            "id": 71,
+            "name": "high quality men distress skinny blue jeans",
+            "price": "90",
+            "description": "des"
+        },
+        ]
+           "message": "Products retrieved successfully."
+     }
