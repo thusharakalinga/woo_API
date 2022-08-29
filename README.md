@@ -17,8 +17,8 @@ composer Update
 -------------------------------------------------
 Run the command to run composer<br>
 
-composer install
-
+composer install<br>
+composer require automattic/woocommerce
 
 
 Database Configuration
@@ -35,3 +35,8 @@ DB_PASSWORD=<br>
 Database Migrations
 ------------------------------------------
 You can Run migration Command below its create DB and create table and Data Seeding<br>
+
+1.php artisan migrate
+
+How to run the API
+----------------------------------
