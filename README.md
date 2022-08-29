@@ -76,26 +76,26 @@ API End point
     }
 -------------------------------------------
 
-    * Login<br>
-    End point: http://localhost:8000/api/login <br>
-    Method: POST<br>
-    Body<br>
-    {<br>
-        "email":"test@gmail.com"<br>
-        "password":"123"<br>
-        "c_password":"123"<br>
+    * Login
+    End point: http://localhost:8000/api/login 
+    Method: POST
+    Body
+    {<
+        "email":"test@gmail.com"
+        "password":"123"
+        "c_password":"123"
 
-    }<br>
+    }
 
-    Out Put<br>
+    Out Put
 
-    {<br>
-    "success": true,<br>
-    "data": {<br>
-        "token": "1|IAv8tDc1LUyCQqlz3lJhz9oaLNaqCKUMhhDgAQFM",<br>
-        "name": "thushara"<br>
-    },<br>
-    "message": "User register successfully."<br>
+    {
+    "success": true,
+    "data": {
+        "token": "1|IAv8tDc1LUyCQqlz3lJhz9oaLNaqCKUMhhDgAQFM",<
+        "name": "thushara"
+    },
+    "message": "User register successfully."
     }
 
 -------------------------------------
