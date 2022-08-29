@@ -8,7 +8,7 @@ Things you may want to cover:
 
 System dependencies
 -------------------------------------
-LARAVEL 8.0
-phpMyAdmin 4.9.2
-PHP Version 7.4.8
-xampp V3.2.4
+LARAVEL 8.0<br>
+phpMyAdmin 4.9.2<br>
+PHP Version 7.4.8<br>
+xampp V3.2.4<br>
