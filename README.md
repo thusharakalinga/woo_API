@@ -1,56 +1,52 @@
-LARAVEL REST API SAMPLE
---------------------------------------
-PHP (Laravel) Developer Challenge
 
-This README would normally document whatever steps are necessary to get the application up and running.
-This Api Is working with Mysql.You can run the mysql in xampp server or ect.
-Things you may want to cover:
+## Random K9s API
 
-System dependencies
--------------------------------------
-LARAVEL 8.0<br>
-phpMyAdmin 4.9.2<br>
-PHP Version 7.4.8<br>
-xampp V3.2.4<br>
-
-composer Update
--------------------------------------------------
-Run the command to run composer<br>
-
-composer install<br>
-composer require automattic/woocommerce
+This exercise involves application logic, consuming 3rd party APIs and developing an API endpoint.<BR>
+This README would normally document whatever steps are necessary to get the application up and running. This <BR>Api Is working with Mysql.You can run the mysql in xampp server or ect. Things you may want to cover:<BR>
 
 
-Database Configuration
--------------------------------------
-You can change the .env File in Root
-change the  user name and password and db name in mysql sever
-DB_CONNECTION=mysql<br>
-DB_HOST=127.0.0.1<br>
-DB_PORT=3306<br>
-DB_DATABASE=<br>
-DB_USERNAME=<br>
-DB_PASSWORD=<br>
+## Learning Laravel
 
-Database Migrations
-------------------------------------------
-You can Run migration Command below its create DB and create table and Data Seeding<br>
+LARAVEL 8.0<BR>
+phpMyAdmin 4.9.2<BR>
+PHP Version 7.4.8<BR>
+xampp V3.2.4<BR>
+## Project Setting UP
+
+Run the command to run composer<BR>
+composer install<BR>
+
+
+
+### Database Configuration
+
+You can change the .env File in Root. change the user name and password and db name in mysql sever    <BR>DB_CONNECTION=mysql<BR>
+DB_HOST=127.0.0.1<BR>
+DB_PORT=3306<BR>
+DB_DATABASE=<BR>
+DB_USERNAME=<BR>
+DB_PASSWORD=<BR>
+
+### Database Migrations
+
+You can Run migration Command below its create DB and create table and Data Seeding
 
 1.php artisan migrate
 
-How to run the API
-----------------------------------
-Run this command in Your CLI<br>
-php artisan serve<br>
-php artisan queue:work<br>
-System runing with http://localhost:8000
+### How to run the API
 
-Run API with POSTMAN
----------------------------------------------
-Postman is an API platform for building and using APIs. you can download the postman and setup 
-https://www.postman.com/downloads/
+Run this command in Your CLI
+php artisan serve
+System runing with http://localhost:8000/api/
 
-API End point
+
+## Run API with POSTMAN
+
+Postman is an API platform for building and using APIs. you can download the postman and setup https://www.postman.com/downloads/
+
+
+
+## API End point
 -----------------------------------------------
 
 * New User register<br>
