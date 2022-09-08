@@ -42,7 +42,8 @@ System runing with http://localhost:8000/api/
 
 ## Run API with POSTMAN
 
-Postman is an API platform for building and using APIs. you can download the postman and setup https://www.postman.com/downloads/
+Postman is an API platform for building and using APIs. you can download the postman and setup <BR>
+https://www.postman.com/downloads/
 
 
 
@@ -52,30 +53,30 @@ Postman is an API platform for building and using APIs. you can download the pos
 * New User register<br>
     End point: http://localhost:8000/api/register<br>
     Method: POST<br>
-    Body<br>
+    Form Data /Body<br>
     {<br>
         "email":"test@gmail.com"<br>
         "password":"123"<br>
-        "c_password":"123"<br>
+        "confirm_password":"123"<br>
 
     }<br>
 
     Out Put<br>
 
     {<br>
-    "success": true,<br>
-    "data": {<br>
-        "token": "1|IAv8tDc1LUyCQqlz3lJhz9oaLNaqCKUMhhDgAQFM",<br>
-        "name": "thushara"<br>
-    },<br>
-    "message": "User register successfully."<br>
+     "success": true,</br>
+    "data": {</br>
+        "token": "1|PHaL0R9VP82iAgBfSs6Igr6kf7Kqx0wtjh1B3Ajn",</br>
+        "name": "thushara"</br>
+    },</br>
+    "message": "User created successfully."</br>
     }
 -------------------------------------------
 
-    * Login
-    End point: http://localhost:8000/api/login 
+    * Login</br>
+    End point: http://localhost:8000/api/login </br>
     Method: POST
-    Body
+   Form Data / Body
     {
         "email":"test@gmail.com"
         "password":"123"
@@ -84,38 +85,28 @@ Postman is an API platform for building and using APIs. you can download the pos
     Out Put
 
     {
-    "success": true,
+     "success": true,
     "data": {
-        "token": "1|IAv8tDc1LUyCQqlz3lJhz9oaLNaqCKUMhhDgAQFM",<
+        "token": "2|Wcq1sefHfQgGusLF3V3uTCCvlGNNvFyR4NQemJDM",
         "name": "thushara"
     },
-    "message": "User register successfully."
+    "message": "User signed in"
     }
 
 -------------------------------------
 
-    * Get Products
-    End point: http://localhost:8000/api/products
+    * Get Random K9
+    End point: http://localhost:8000/api/dogs
     Method: GET
     Authorization: Bearer + token
  
     Out Put
 
     {
-    "success": true,
-    "data": [
-        {
-            "id": 70,
-            "name": "special cotton shirt for men",
-            "price": "15",
-            "description": "des"
+        "success": true,
+        "data": "https://random.dog/474feef3-7ccf-4aff-94e5-9ad5a8b65a48.jpg",
+        "facts": {
+            "fact": "Dog trainers in ancient China were held in high esteem. A great deal of dog domestication also took place in China, especially dwarfing and miniaturization."
         },
-        {
-            "id": 71,
-            "name": "high quality men distress skinny blue jeans",
-            "price": "90",
-            "description": "des"
-        },
-        ]
-           "message": "Products retrieved successfully."
+        "message": "This File  is Expected Size...!!!!"
      }
