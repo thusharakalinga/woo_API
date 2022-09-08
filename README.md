@@ -110,3 +110,6 @@ https://www.postman.com/downloads/
         },
         "message": "This File  is Expected Size...!!!!"
      }
+## Unit test
+you can use the cli and open the project forder
+c;\random-k9_Laravel> vendor/bin/phpunit
